@@ -18,6 +18,8 @@ const CarCard = ({ car }: CarcardProps) => {
 
   const carRent = calculateCarRent(city_mpg, year);
 
+  
+
   return (
     <div className="car-card group">
       <div className="car-card__content">
